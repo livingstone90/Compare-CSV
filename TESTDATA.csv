@@ -1,0 +1,312 @@
+Text Validation Min,New_Text Validation Min,Text Validation Max,New_Text Validation Max,Branching Logic (Show field only if...),New_Branching Logic (Show field only if)
+nan , 5100000.0,nan , 8000000.0,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,[age_less1mnth]='1',
+,,,,,
+,,,,,
+,,,,[ref_hosp] = '1' , nan
+,,,,,
+3.0 , nan,30.0 , nan,nan , [ref_hosp] = '1'
+20.0 , nan,120.0 , nan,,
+nan , 3.0,nan , 30.0,,
+nan , 20.0,nan , 120.0,,
+,,,,,
+,,,,,
+,,,,[vacc_source]='2' , nan
+,,,,[vacc_source]='1' , nan
+,,,,[vacc_source]='1' , [vacc_source]='2'
+,,,,[vacc_source]='1',
+,,,,[vacc_source]='1',
+,,,,[vacc_source]='1' , [vacc_source] = '1' and [hosp_id] = '53' and [hosp_id] = '55'
+,,,,nan , [vacc_source]='1'
+,,21.0 , nan,nan , [vacc_source]='1'
+,,,,,
+,,nan , 21.0,[fever]='1' , nan
+,,,,,
+,,,,[cough] = '1' , [fever]='1'
+,,,,[cough] = '1' , nan
+,,,,nan , [cough] = '1'
+,,,,nan , [cough] = '1'
+,,,,[diarrhoea] = '1' , nan
+,,,,[diarrhoea] = '1' , nan
+,,,,[diarrhoea] = '1',
+,,,,nan , [diarrhoea] = '1'
+,,,,[convulsions] = '1' , [diarrhoea] = '1'
+,,,,[convulsions] = '1' , nan
+,,,,nan , [convulsions] = '1'
+,,,,[vomits] = '1' , [convulsions] = '1'
+,,,,[vomits] = '1' , nan
+,,,,nan , [vomits] = '1'
+,,,,nan , [vomits] = '1'
+,,,,,
+10.0 , nan,100.0 , nan,,
+20.0 , nan,160.0 , nan,,
+nan , 10.0,nan , 100.0,,
+nan , 20.0,100.0 , 160.0,[oxygen_sat_done]='1' , nan
+,,,,,
+,,nan , 100.0,[bp_done]='1' , [oxygen_sat_done]='1'
+,,,,[bp_done]='1' , nan
+,,,,nan , [bp_done]='1'
+,,,,nan , [bp_done]='1'
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,[age_less1mnth]='1' , nan
+,,,,,
+,,,,nan , [age_less1mnth]='1'
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,[age_mths] <'2' and ([age_years]='0' or [age_years]='-1') , nan
+,,,,[age_mths] <'2' and ([age_years]='0' or [age_years]='-1') , nan
+,,,,nan , [age_mths] <'2' and ([age_years]='0' or [age_years]='-1')
+,,,,[mal1_order] = '1' , [age_mths] <'2' and ([age_years]='0' or [age_years]='-1')
+,,,,[mal1_order] = '1' , nan
+,,,,nan , [mal1_order] = '1'
+,,,,[other_mal_test1] = '1' , [mal1_order] = '1'
+,,,,[other_mal_test1] = '1' , nan
+,,,,nan , [other_mal_test1] = '1'
+,,,,[other_mal_test2] = '1' , [other_mal_test1] = '1'
+,,,,[other_mal_test2] = '1' , nan
+,,,,nan , [other_mal_test2] = '1'
+,,,,[hb1_order] = '1' , [other_mal_test2] = '1'
+,,,,[hb1_order] = '1' , nan
+,,,,[hb1_order] = '1',
+,,,,[hb1_order] = '1',
+,,,,nan , [hb1_order] = '1'
+,,,,[gluc1_order] = '1' , [hb1_order] = '1'
+,,,,[gluc1_order] = '1' , nan
+,,,,nan , [gluc1_order] = '1'
+,,,,[chemistry] = '1' , [gluc1_order] = '1'
+,,,,,
+,,,,[hiv1_order] = '1' , [chemistry] = '1'
+,,,,[hiv1_order] = '1' , nan
+,,,,[hiv1_order] ='0' , [hiv1_order] = '1'
+,,,,[hiv_inpt_order] = '1' and [hiv1_order] ='0' , [hiv1_order] = '1'
+,,,,[hiv_inpt_order] = '1' and [hiv1_order] ='0' , [hiv1_order] ='0'
+,,,,nan , [hiv_inpt_order] = '1' and [hiv1_order] ='0'
+,,,,[micro_order] = '1' , [hiv_inpt_order] = '1' and [hiv1_order] ='0'
+,,,,[micro_order] = '1' , nan
+,,,,[micro_order] = '1' and [micro_tests(1)] = '1' , [micro_order] = '1'
+,,,,[micro_order] = '1' and [micro_tests(1)] = '1' , [micro_order] = '1'
+,,,,nan , [micro_order] = '1' and [micro_tests(1)] = '1'
+,,,,nan , [micro_order] = '1' and [micro_tests(1)] = '1'
+,,,,[urine]='1' , nan
+,,,,[urine]='1' , nan
+,,,,nan , [urine]='1'
+,,,,nan , [urine]='1'
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,[sec_dx] = '1' , nan
+,,,,[sec_dx] = '1' , nan
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,[sec_dx] = '1',
+,,,,nan , [sec_dx] = '1'
+,,,,nan , [sec_dx] = '1'
+,,,,[pen_pres] = '1' , nan
+50000.0 , nan,2000000.0 , nan,[pen_pres] = '1' , nan
+,,,,[pen_pres] = '1',
+1.0 , 50000.0,6.0 , 2000000.0,[pen_pres] = '1',
+,,,,[pen_pres] = '1',
+nan , 1.0,nan , 6.0,[pen_pres] = '1',
+,,,,nan , [pen_pres] = '1'
+,,,,[gent1_pres] = '1' , [pen_pres] = '1'
+10.0 , nan,300.0 , nan,[gent1_pres] = '1' , nan
+,,,,[gent1_pres] = '1',
+nan , 10.0,nan , 300.0,[gent1_pres] = '1',
+,,,,[gent1_pres] = '1',
+,,,,[gent1_pres] = '1',
+,,,,nan , [gent1_pres] = '1'
+,,,,[amox1_pres] = '1' , [gent1_pres] = '1'
+,,,,[amox1_pres] = '1' , nan
+,,,,[amox1_pres] = '1',
+,,,,[amox1_pres] = '1',
+,,,,[amox1_pres] = '1',
+,,,,nan , [amox1_pres] = '1'
+,,,,[ceftri1_pres] = '1' , [amox1_pres] = '1'
+,,,,[ceftri1_pres] = '1' , nan
+,,,,[ceftri1_pres] = '1',
+,,,,[ceftri1_pres] = '1',
+,,,,[ceftri1_pres] = '1',
+,,,,nan , [ceftri1_pres] = '1'
+,,,,[caf1_pres] = '1' , [ceftri1_pres] = '1'
+,,,,[caf1_pres] = '1' , nan
+,,,,[caf1_pres] = '1',
+,,,,[caf1_pres] = '1',
+,,,,[caf1_pres] = '1',
+,,,,nan , [caf1_pres] = '1'
+,,,,[metr1_pres] = '1' , [caf1_pres] = '1'
+,,,,[metr1_pres] = '1' , nan
+,,,,[metr1_pres] = '1',
+,,,,[metr1_pres] = '1',
+,,,,[metr1_pres] = '1',
+,,,,[metr1_pres] = '1',
+,,,,nan , [metr1_pres] = '1'
+,,,,[cotrimox1_pres] = '1' , [metr1_pres] = '1'
+,,,,[cotrimox1_pres] = '1' , nan
+,,,,[cotrimox1_pres] = '1',
+,,,,[cotrimox1_pres] = '1',
+,,,,nan , [cotrimox1_pres] = '1'
+,,,,nan , [cotrimox1_pres] = '1'
+,,,,[anti_malarials]='1'  , nan
+,,,,[quinl1_pres] = '1' and [anti_malarials]='1'  , nan
+,,,,[quinl1_pres] = '1' and [anti_malarials]='1'  , [anti_malarials]='1' 
+,,,,[quinl1_pres] = '1' and [anti_malarials]='1' ,
+,,,,[anti_malarials]='1'  , [quinl1_pres] = '1' and [anti_malarials]='1' 
+,,,,[quinm1_pres] = '1' and [anti_malarials]='1'  , [quinl1_pres] = '1' and [anti_malarials]='1' 
+,,,,[quinm1_pres] = '1' and [anti_malarials]='1'  , [anti_malarials]='1' 
+,,,,[quinm1_pres] = '1' and [anti_malarials]='1' ,
+,,,,[quinm1_pres] = '1' and [anti_malarials]='1' ,
+,,,,[quinm1_pres] = '1' and [anti_malarials]='1' ,
+,,,,[anti_malarials]='1'  , [quinm1_pres] = '1' and [anti_malarials]='1' 
+,,,,[arte_pres] = '1' and [anti_malarials]='1'  , [quinm1_pres] = '1' and [anti_malarials]='1' 
+,,,,[arte_pres] = '1' and [anti_malarials]='1'  , [anti_malarials]='1' 
+,,,,[arte_pres] = '1' and [anti_malarials]='1' ,
+,,,,[arte_pres] = '1' and [anti_malarials]='1' ,
+,,,,[arte_pres] = '1' and [anti_malarials]='1' ,
+,,,,[anti_malarials]='1'  , [arte_pres] = '1' and [anti_malarials]='1' 
+,,,,[anti_malarials]='1'  , [arte_pres] = '1' and [anti_malarials]='1' 
+,,,,[coart1_pres] = '1' and [anti_malarials]='1'  , [anti_malarials]='1' 
+,,,,[coart1_pres] = '1' and [anti_malarials]='1'  , [anti_malarials]='1' 
+,,,,[coart1_pres] = '1' and [anti_malarials]='1' ,
+,,,,[coart1_pres] = '1' and [anti_malarials]='1' ,
+,,,,[coart1_pres] = '1' and [anti_malarials]='1' ,
+,,,,nan , [coart1_pres] = '1' and [anti_malarials]='1' 
+,,,,nan , [coart1_pres] = '1' and [anti_malarials]='1' 
+,,,,[salb_pres]='1' , nan
+,,,,,
+,,,,nan , [salb_pres]='1'
+,,,,,
+,,,,,
+,,,,[dextrose_10] = '1' , nan
+,,,,,
+,,,,[adm_rx]='1' , [dextrose_10] = '1'
+,,,,[adm_rx]='1' , nan
+,,,,[adm_rx]='1',
+,,,,[adm_rx]='1',
+,,,,[adm_rx]='1',
+,,,,nan , [adm_rx]='1'
+,,,,nan , [adm_rx]='1'
+,,,,[oxy_order] = '1' , nan
+,,,,[oxy_order] = '1' , nan
+,,,,[oxy_order] = '1',
+,,,,nan , [oxy_order] = '1'
+,,,,[transf_order] = '1' , [oxy_order] = '1'
+,,,,[transf_order] = '1' , nan
+,,,,[transf_order] = '1',
+,,,,[transf_order] = '1',
+,,,,nan , [transf_order] = '1'
+,,,,nan , [transf_order] = '1'
+,,,,[iv_fluid] = '1' , nan
+,,,,[iv_fluid] = '1' and [fluid_bolus]='1' , nan
+,,,,[iv_fluid] = '1' and [fluid_bolus]='1' , [iv_fluid] = '1'
+,,,,[iv_fluid] = '1' , [iv_fluid] = '1' and [fluid_bolus]='1'
+,,,,[iv_fluid] = '1' , [iv_fluid] = '1' and [fluid_bolus]='1'
+,,,,[iv_fluid] = '1',
+,,,,[iv_fluid] = '1' , [fluid_pres1] = '7'
+,,,,nan , [iv_fluid] = '1'
+,,,,[oral_fluid] = '1' , [iv_fluid] = '1'
+,,,,[oral_fluid] = '1' , [iv_fluid] = '1'
+,,,,[oral_fluid] = '1' , nan
+,,,,[oral_fluid] = '1',
+,,,,nan , [oral_fluid] = '1'
+,,,,[fluid_maint]='1' , [oral_fluid] = '1'
+,,,,nan , [oral_fluid] = '1'
+,,,,[malnourished] = '1' , nan
+,,,,[malnourished] = '1' , [fluid_maint]='1'
+,,,,[malnourished] = '1' and [feed_pres]='8' , nan
+,,,,[malnourished] = '1',
+,,,,nan , [feed_pres] = '7'
+,,,,nan , [malnourished] = '1'
+,,,,[fluid_feed_mon] = '1' , [malnourished] = '1' and [feed_pres]='8'
+,,,,nan , [malnourished] = '1'
+,,,,[vitals_chart] ='1' , [malnourished] = '1'
+,,,,[vitals_chart] ='1' and [vital_monit_48hrs]='1' , nan
+,,,,[vitals_chart] ='1' and [vital_monit_48hrs]='1' , [fluid_feed_mon] = '1'
+,,,,[vitals_chart] ='1' and [vital_monit_48hrs]='1' , nan
+,,,,[vitals_chart] ='1' and [vital_monit_48hrs]='1' and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66') , [vitals_chart] ='1'
+,,,,[vitals_chart] ='1' and [vital_monit_48hrs]='1'  and [bp_moni] = '1'   and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66') , [vitals_chart] ='1' and [vital_monit_48hrs]='1'
+,,,,[vitals_chart] ='1'  and [vital_monit_48hrs]='1' and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66') , [vitals_chart] ='1' and [vital_monit_48hrs]='1'
+,,,,[vitals_chart] ='1' and [vital_monit_48hrs]='1'  and [oxy_sat_moni] = '1'  and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66') , [vitals_chart] ='1' and [vital_monit_48hrs]='1'
+,,,,nan , [vitals_chart] ='1' and [vital_monit_48hrs]='1' and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66')
+,,,,nan , [vitals_chart] ='1' and [vital_monit_48hrs]='1'  and [bp_moni] = '1'   and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66')
+,,,,nan , [vitals_chart] ='1'  and [vital_monit_48hrs]='1' and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66')
+,,,,nan , [vitals_chart] ='1' and [vital_monit_48hrs]='1'  and [oxy_sat_moni] = '1'  and ([hosp_id]='60' or [hosp_id]='62' or [hosp_id]='65' or [hosp_id]='66')
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,[dsc_dx2] = '1' , nan
+,,,,[dsc_dx2] = '1' , nan
+,,,,[dsc_dx2] = '1' , nan
+,,,,[dsc_dx2] = '1' , nan
+,,,,[dsc_dx2] = '1',
+,,,,[dsc_dx2] = '1',
+,,,,[dsc_dx2] = '1',
+,,,,[dsc_dx2] = '1',
+,,,,[dsc_dx2] = '1',
+,,,,[dsc_dx2] = '1',
+,,,,[dsc_dx2] = '1',
+,,,,[dsc_dx2] = '1',
+,,,,nan , [dsc_dx2] = '1'
+,,,,nan , [dsc_dx2] = '1'
+,,,,nan , [dsc_dx2] = '1'
+,,,,[dsc_rx]='1' , [dsc_dx2] = '1'
+,,,,[dsc_rx]='1' , nan
+,,,,[dsc_rx]='1' , nan
+,,,,[dsc_rx]='1' , nan
+,,,,[dsc_rx]='1',
+,,,,[dsc_rx]='1',
+,,,,[dsc_rx]='1',
